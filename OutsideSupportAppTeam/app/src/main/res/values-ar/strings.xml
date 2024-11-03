@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق دعم الخروج</string>
+    <string name="tv_winfo_title">تطبيق دعم الخروج</string>
+
+    <string name="main_title">تطبيق دعم الخروج</string>
+    <string name="main_tourism_button">البحث عن أماكن السياحة</string>
+    <string name="main_weather_button">فحص الطقس</string>
+    <string name="main_meeting_button">ميزة الاجتماع</string>
+    <string name="main_setting_button">إعدادات التطبيق</string>
+
+    <string name="tourism_title">البحث عن أماكن السياحة</string>
+    <string name="tourism_search_str">أدخل مكان السياحة الذي ترغب في زيارته</string>
+    <string name="tourism_weather_info_title">معلومات الطقس</string>
+    <string name="tourism_map_info_title">معلومات الخريطة</string>
+    <string name="tourism_map_str">عرض خريطة مكان السياحة.\nانتقل إلى خرائط Google</string>
+
+    <string name="weatherview_title">معلومات الطقس</string>
+    <string name="weatherview_back_button">← العودة</string>
+    <string name="weatherview_setting_button">تغيير موقع العرض</string>
+
+    <string name="meeting_title">ميزة الاجتماع</string>
+    <string name="meeting_time_str">وقت الاجتماع</string>
+    <string name="meeting_place_str">مكان الاجتماع</string>
+    <string name="meeting_map_str">عرض مكان الاجتماع على خرائط Google</string>
+    <string name="meeting_enable_tentime_str">تم تمكين إنذار قبل 10 دقائق</string>
+    <string name="meeting_setting_button">تغيير معلومات الاجتماع</string>
+
+    <string name="setting_title">إعدادات التطبيق</string>
+    <string name="setting_set_departure_place">تحديد مكان المغادرة</string>
+    <string name="setting_set_destination_place">تحديد الوجهة</string>
+    <string name="setting_set_language">إعدادات اللغة</string>
+    <string name="setting_set_language_str">الانتقال إلى إعدادات اللغة</string>
+    <string name="setting_set_alarm_title">إعدادات ميزة الاجتماع</string>
+    <string name="setting_enable_alarm_str">تمكين الإنذار</string>
+    <string name="setting_meeting_place">مكان الاجتماع</string>
+    <string name="setting_meeting_time">وقت الاجتماع</string>
+    <string name="setting_meeting_time_set">تعيين</string>
+    <string name="setting_enable_tts">تمكين ميزة النص إلى الصوت</string>
+    <string name="setting_enable_pre_alarm">تعيين إنذار قبل 10 دقائق</string>
+    <string name="setting_enable_pre_alarm_only">عدم تعيين إنذار في وقت الاجتماع</string>
+    <string name="setting_finish">تعيين</string>
+
+    <string name="tourism_class_result_str">نتائج البحث عن </string>
+    <string name="tourism_class_no_weatherinfo">لا توجد معلومات طقس</string>
+    <string name="tourism_class_temp">درجة الحرارة:</string>
+    <string name="tourism_class_humidity">الرطوبة:</string>
+    <string name="tourism_class_wind">سرعة الرياح:</string>
+
+    <string name="weatherview_class_departure">مغادرة</string>
+    <string name="weatherview_class_deatination">وجهة</string>
+
+    <string name="meeting_class_no_set">لم يتم التحديد</string>
+    <string name="meeting_next_day_alart">سيتم تشغيل الإنذار في اليوم التالي في %1$s</string>
+
+    <string name="setting_class_failure_pre_alarm_only">لا يمكن تعيين الإنذار لأنه قد مرت 10 دقائق</string>
+    <string name="setting_class_failure_pre_alarm">لا يمكن تعيين الإنذار لأنه قد مرت 10 دقائق; تم تعيين إنذار قبل 10 دقائق فقط</string>
+    <string name="setting_class_set_next_alarm">تم تعيين الإنذار لليوم التالي في %1$s</string>
+    <string name="setting_class_set_alarm">تم تعيين الإنذار في %1$s</string>
+
+    <string name="alarm_pre_title">إنذار قبل 10 دقائق من وقت الاجتماع</string>
+    <string name="alarm_pre_text"> %1$s - باقي 10 دقائق على وقت الاجتماع</string>
+
+    <string name="alarm_title">إنذار في وقت الاجتماع</string>
+    <string name="alarm_text"> %1$s - وقت الاجتماع قد حان</string>
+    <string name="meeting_indoor_switch">عرض أماكن المشاهدة الداخلية الموصى بها</string>
+</resources>

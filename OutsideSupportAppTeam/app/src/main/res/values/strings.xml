@@ -1,0 +1,68 @@
+<resources>
+	<string name="app_name">お出かけ支援アプリ</string>
+	<string name="tv_winfo_title">お出かけ支援アプリ</string>
+
+	<string name="main_title">お出かけ支援アプリ</string>
+	<string name="main_tourism_button">観光地検索</string>
+	<string name="main_weather_button">天気確認</string>
+	<string name="main_meeting_button">待ち合わせ機能</string>
+	<string name="main_setting_button">アプリの設定</string>
+
+	<string name="tourism_title">観光地検索</string>
+	<string name="tourism_search_str">お出かけしたい観光地を入力してください</string>
+	<string name="tourism_weather_info_title">天候情報</string>
+	<string name="tourism_map_info_title">地図情報</string>
+	<string name="tourism_map_str">観光地の地図を表示します。\nGoogle Mapへ移動します</string>
+
+	<string name="weatherview_title">天気情報</string>
+	<string name="weatherview_back_button">←戻る</string>
+	<string name="weatherview_setting_button">表示地点を変更する</string>
+
+	<string name="meeting_title">待ち合わせ機能</string>
+	<string name="meeting_time_str">待ち合わせ時刻</string>
+	<string name="meeting_place_str">待ち合わせ場所</string>
+	<string name="meeting_map_str">Google Mapで待ち合わせ場所を表示</string>
+	<string name="meeting_enable_tentime_str">10分前お知らせアラームが有効になっています</string>
+	<string name="meeting_setting_button">待ち合わせ情報変更</string>
+	<string name="meeting_indoor_switch">屋内のおすすめ見学スポットを表示する</string>
+
+	<string name="setting_title">アプリの設定</string>
+	<string name="setting_set_departure_place">出発地の設定</string>
+	<string name="setting_set_destination_place">目的地の設定</string>
+	<string name="setting_set_language">言語設定</string>
+	<string name="setting_set_language_str">設定アプリに移動します</string>
+	<string name="setting_set_alarm_title">待ち合わせ機能設定</string>
+	<string name="setting_enable_alarm_str">アラームを有効にする</string>
+	<string name="setting_meeting_place">待ち合わせ場所</string>
+	<string name="setting_meeting_time">待ち合わせ時刻</string>
+	<string name="setting_meeting_time_set">セット</string>
+	<string name="setting_enable_tts">読み上げ機能を有効にする</string>
+	<string name="setting_enable_pre_alarm">10分前にアラームを鳴らす</string>
+	<string name="setting_enable_pre_alarm_only">待ち合わせ時刻にアラームを鳴らさない</string>
+	<string name="setting_finish">設定</string>
+
+	<!-- getResources().getString(R.string.tourism_class_result_str) -->
+	<string name="tourism_class_result_str">の検索結果</string>
+	<string name="tourism_class_no_weatherinfo">天候情報はありません</string>
+	<string name="tourism_class_temp">気温：</string>
+	<string name="tourism_class_humidity">湿度：</string>
+	<string name="tourism_class_wind">風速：</string>
+
+	<string name="weatherview_class_departure">出発地</string>
+	<string name="weatherview_class_deatination">到着地</string>
+
+	<string name="meeting_class_no_set">未設定</string>
+	<string name="meeting_next_day_alart">アラームは次の日の %1$s に鳴ります</string>
+
+	<string name="setting_class_failure_pre_alarm_only">10分前を過ぎているため、アラームを設定できませんでした</string>
+	<string name="setting_class_failure_pre_alarm">10分前を過ぎているため、待ち合わせ時刻のみのアラームをセットしました</string>
+	<string name="setting_class_set_next_alarm">アラームを次の日の %1$s にセットしました</string>
+	<string name="setting_class_set_alarm">アラームを %1$s にセットしました</string>
+	
+	<string name="alarm_pre_title">待ち合わせ時刻10分前アラーム</string>
+	<string name="alarm_pre_text"> %1$s の待ち合わせ時刻10分前になりました</string>
+
+	<string name="alarm_title">待ち合わせ時刻アラーム</string>
+	<string name="alarm_text"> %1$s の待ち合わせ時刻になりました</string>
+	
+</resources>

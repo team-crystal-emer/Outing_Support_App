@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Outing Support App</string>
+    <string name="tv_winfo_title">Outing Support App</string>
+
+    <string name="main_title">Outing Support App</string>
+    <string name="main_tourism_button">Search Tourist Spots</string>
+    <string name="main_weather_button">Check Weather</string>
+    <string name="main_meeting_button">Meeting Function</string>
+    <string name="main_setting_button">App Settings</string>
+
+    <string name="tourism_title">Search Tourist Spots</string>
+    <string name="tourism_search_str">Please enter the tourist spot you want to visit</string>
+    <string name="tourism_weather_info_title">Weather Information</string>
+    <string name="tourism_map_info_title">Map Information</string>
+    <string name="tourism_map_str">Displays the map of the tourist spot.\nMoves to Google Map</string>
+
+    <string name="weatherview_title">Weather Information</string>
+    <string name="weatherview_back_button">←Back</string>
+    <string name="weatherview_setting_button">Change Display Point</string>
+
+    <string name="meeting_title">Meeting Function</string>
+    <string name="meeting_time_str">Meeting Time</string>
+    <string name="meeting_place_str">Meeting Place</string>
+    <string name="meeting_map_str">Display Meeting Place on Google Map</string>
+    <string name="meeting_enable_tentime_str">10-minute advance alarm is enabled</string>
+    <string name="meeting_setting_button">Change Meeting Information</string>
+
+    <string name="setting_title">App Settings</string>
+    <string name="setting_set_departure_place">Set Departure Place</string>
+    <string name="setting_set_destination_place">Set Destination</string>
+    <string name="setting_set_language">Language Settings</string>
+    <string name="setting_set_language_str">Move to Settings App</string>
+    <string name="setting_set_alarm_title">Meeting Function Settings</string>
+    <string name="setting_enable_alarm_str">Enable Alarm</string>
+    <string name="setting_meeting_place">Meeting Place</string>
+    <string name="setting_meeting_time">Meeting Time</string>
+    <string name="setting_meeting_time_set">Set</string>
+    <string name="setting_enable_tts">Enable Read Aloud Function</string>
+    <string name="setting_enable_pre_alarm">Ring Alarm 10 Minutes Before</string>
+    <string name="setting_enable_pre_alarm_only">Do Not Ring Alarm at Meeting Time</string>
+    <string name="setting_finish">Settings</string>
+
+    <!-- getResources().getString(R.string.tourism_class_result_str) -->
+    <string name="tourism_class_result_str">Search Results of</string>
+    <string name="tourism_class_no_weatherinfo">No Weather Information</string>
+    <string name="tourism_class_temp">Temperature:</string>
+    <string name="tourism_class_humidity">Humidity:</string>
+    <string name="tourism_class_wind">Wind Speed:</string>
+
+    <string name="weatherview_class_departure">Departure</string>
+    <string name="weatherview_class_deatination">Destination</string>
+
+    <string name="meeting_class_no_set">Not Set</string>
+    <string name="meeting_next_day_alart">The alarm will ring at %1$s the next day</string>
+
+    <string name="setting_class_failure_pre_alarm_only">Could not set the alarm because it is past 10 minutes before</string>
+    <string name="setting_class_failure_pre_alarm">Set the alarm only for the meeting time because it is past 10 minutes before</string>
+    <string name="setting_class_set_next_alarm">Set the alarm for %1$s the next day</string>
+    <string name="setting_class_set_alarm">Set the alarm for %1$s</string>
+
+    <string name="alarm_pre_title">10 Minutes Before Meeting Time Alarm</string>
+    <string name="alarm_pre_text">It is 10 minutes before the meeting time of %1$s</string>
+
+    <string name="alarm_title">Meeting Time Alarm</string>
+    <string name="alarm_text">It is the meeting time of %1$s</string>
+    <string name="meeting_indoor_switch">View recommended indoor viewing spots</string>
+
+</resources>

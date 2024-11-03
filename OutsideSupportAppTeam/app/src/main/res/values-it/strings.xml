@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App di Supporto per Uscire</string>
+    <string name="tv_winfo_title">App di Supporto per Uscire</string>
+
+    <string name="main_title">App di Supporto per Uscire</string>
+    <string name="main_tourism_button">Ricerca Luoghi Turistici</string>
+    <string name="main_weather_button">Verifica Meteo</string>
+    <string name="main_meeting_button">Funzione di Incontro</string>
+    <string name="main_setting_button">Impostazioni App</string>
+
+    <string name="tourism_title">Ricerca Luoghi Turistici</string>
+    <string name="tourism_search_str">Inserisci il luogo turistico che desideri visitare</string>
+    <string name="tourism_weather_info_title">Informazioni Meteo</string>
+    <string name="tourism_map_info_title">Informazioni sulla Mappa</string>
+    <string name="tourism_map_str">Visualizza la mappa del luogo turistico.\nVai a Google Maps</string>
+
+    <string name="weatherview_title">Informazioni Meteo</string>
+    <string name="weatherview_back_button">←Indietro</string>
+    <string name="weatherview_setting_button">Cambia Posizione Visualizzazione</string>
+
+    <string name="meeting_title">Funzione di Incontro</string>
+    <string name="meeting_time_str">Orario di Incontro</string>
+    <string name="meeting_place_str">Luogo di Incontro</string>
+    <string name="meeting_map_str">Mostra il luogo di incontro su Google Maps</string>
+    <string name="meeting_enable_tentime_str">Allarme attivato 10 minuti prima è abilitato</string>
+    <string name="meeting_setting_button">Modifica Informazioni di Incontro</string>
+
+    <string name="setting_title">Impostazioni App</string>
+    <string name="setting_set_departure_place">Imposta Luogo di Partenza</string>
+    <string name="setting_set_destination_place">Imposta Destinazione</string>
+    <string name="setting_set_language">Impostazioni Lingua</string>
+    <string name="setting_set_language_str">Vai alle impostazioni della lingua</string>
+    <string name="setting_set_alarm_title">Impostazioni Funzione di Incontro</string>
+    <string name="setting_enable_alarm_str">Attiva Allarme</string>
+    <string name="setting_meeting_place">Luogo di Incontro</string>
+    <string name="setting_meeting_time">Orario di Incontro</string>
+    <string name="setting_meeting_time_set">Imposta</string>
+    <string name="setting_enable_tts">Attiva Funzione di Lettura del Testo</string>
+    <string name="setting_enable_pre_alarm">Imposta Allarme 10 minuti Prima</string>
+    <string name="setting_enable_pre_alarm_only">Non impostare l\'allarme all\'orario di incontro</string>
+    <string name="setting_finish">Imposta</string>
+
+    <string name="tourism_class_result_str">Risultati della ricerca per </string>
+    <string name="tourism_class_no_weatherinfo">Nessuna informazione meteorologica disponibile</string>
+    <string name="tourism_class_temp">Temperatura: </string>
+    <string name="tourism_class_humidity">Umidità: </string>
+    <string name="tourism_class_wind">Velocità del Vento: </string>
+
+    <string name="weatherview_class_departure">Partenza</string>
+    <string name="weatherview_class_deatination">Destinazione</string>
+
+    <string name="meeting_class_no_set">Non impostato</string>
+    <string name="meeting_next_day_alart">L\'allarme suonerà il giorno successivo alle %1$s</string>
+
+    <string name="setting_class_failure_pre_alarm_only">Impossibile impostare l\'allarme poiché sono trascorsi 10 minuti</string>
+    <string name="setting_class_failure_pre_alarm">Impossibile impostare l\'allarme poiché sono trascorsi 10 minuti; impostato solo l\'allarme 10 minuti prima</string>
+    <string name="setting_class_set_next_alarm">L\'allarme è stato impostato per il giorno successivo alle %1$s</string>
+    <string name="setting_class_set_alarm">L\'allarme è stato impostato alle %1$s</string>
+
+    <string name="alarm_pre_title">Allarme 10 minuti Prima dell\'Orario di Incontro</string>
+    <string name="alarm_pre_text">L\'orario di incontro di %1$s è tra 10 minuti</string>
+
+    <string name="alarm_title">Allarme Orario di Incontro</string>
+    <string name="alarm_text">È l\'orario di incontro di %1$s</string>
+    <string name="meeting_indoor_switch">Mostra i punti di osservazione al coperto consigliati</string>
+</resources>

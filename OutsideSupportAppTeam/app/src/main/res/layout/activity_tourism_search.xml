@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 観光地検索 -->
+    <TextView
+        android:id="@+id/textOuting"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:background="#ABE36A"
+        android:gravity="center"
+        android:text="@string/tourism_title"
+        android:textAlignment="center"
+        android:textColor="#FDFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/search_tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- 検索タブ -->
+    <View
+        android:id="@+id/search_tab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toTopOf="@+id/line1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOuting" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tourism_search_str"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_tab" />
+
+    <EditText
+        android:id="@+id/searchedittext"
+        android:layout_width="231dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_tab"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/searchbutton"
+        android:layout_width="28dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="64dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/searchedittext"
+        app:layout_constraintTop_toTopOf="@+id/search_tab"
+        app:srcCompat="@drawable/search"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="411dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="48dp"
+        android:background="#DFDFDF"
+        app:layout_constraintBottom_toBottomOf="@+id/result_str_tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/search_tab" />
+
+    <View
+        android:id="@+id/result_str_tab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toTopOf="@+id/line2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_tab" />
+
+    <TextView
+        android:id="@+id/search_result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center|start"
+        android:text="検索結果"
+        app:layout_constraintBottom_toTopOf="@+id/line2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_tab"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="504dp"
+        android:background="#DFDFDF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- 検索結果表示 -->
+
+    <View
+        android:id="@+id/result_weather_tab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toBottomOf="@+id/line3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_result"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/result_temp"
+        android:layout_width="132dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="80dp"
+        android:text="気温："
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line2" />
+
+    <ImageView
+        android:id="@+id/result_temp_image"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line2"
+        app:srcCompat="@drawable/clearsky" />
+
+    <TextView
+        android:id="@+id/weather_info_str"
+        android:layout_width="227dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center|start"
+        android:text="@string/tourism_weather_info_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/result_weather_tab" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="288dp"
+        android:background="#DFDFDF"
+        app:layout_constraintBottom_toBottomOf="@+id/result_map_tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/result_weather_tab" />
+
+    <View
+        android:id="@+id/result_map_tab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result_weather_tab"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/map_info_str"
+        android:layout_width="227dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center|start"
+        android:text="@string/tourism_map_info_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/result_map_tab" />
+
+    <ImageButton
+        android:id="@+id/map_button"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_info_str"
+        app:srcCompat="@drawable/map"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/result_map"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/tourism_map_str"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_info_str" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7C4DFF"
+        android:text="@string/weatherview_back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/inside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="@string/meeting_indoor_switch"
+        app:layout_constraintEnd_toEndOf="@+id/result_map_tab"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="@+id/result_map_tab"
+        app:layout_constraintTop_toTopOf="@+id/result_map_tab"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

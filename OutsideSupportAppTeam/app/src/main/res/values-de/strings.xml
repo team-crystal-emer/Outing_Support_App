@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ausflugsunterstützungs-App</string>
+    <string name="tv_winfo_title">Ausflugsunterstützungs-App</string>
+
+    <string name="main_title">Ausflugsunterstützungs-App</string>
+    <string name="main_tourism_button">Tourismusorte suchen</string>
+    <string name="main_weather_button">Wetter überprüfen</string>
+    <string name="main_meeting_button">Treffen-Funktion</string>
+    <string name="main_setting_button">App-Einstellungen</string>
+
+    <string name="tourism_title">Tourismusorte suchen</string>
+    <string name="tourism_search_str">Geben Sie den Tourismusort ein, den Sie besuchen möchten</string>
+    <string name="tourism_weather_info_title">Wetterinformation</string>
+    <string name="tourism_map_info_title">Karteninformation</string>
+    <string name="tourism_map_str">Zeigt die Karte des Tourismusorts an.\nWechsel zu Google Maps</string>
+
+    <string name="weatherview_title">Wetterinformation</string>
+    <string name="weatherview_back_button">←Zurück</string>
+    <string name="weatherview_setting_button">Anzeigeort ändern</string>
+
+    <string name="meeting_title">Treffen-Funktion</string>
+    <string name="meeting_time_str">Treffen-Zeit</string>
+    <string name="meeting_place_str">Treffen-Ort</string>
+    <string name="meeting_map_str">Treffen-Ort auf Google Maps anzeigen</string>
+    <string name="meeting_enable_tentime_str">10 Minuten vorherige Benachrichtigungsalarm ist aktiviert</string>
+    <string name="meeting_setting_button">Ändern der Treffendaten</string>
+
+    <string name="setting_title">App-Einstellungen</string>
+    <string name="setting_set_departure_place">Abfahrtsort festlegen</string>
+    <string name="setting_set_destination_place">Ziel festlegen</string>
+    <string name="setting_set_language">Spracheinstellungen</string>
+    <string name="setting_set_language_str">Wechsel zu den Spracheinstellungen</string>
+    <string name="setting_set_alarm_title">Treffen-Funktionseinstellungen</string>
+    <string name="setting_enable_alarm_str">Alarm aktivieren</string>
+    <string name="setting_meeting_place">Treffen-Ort</string>
+    <string name="setting_meeting_time">Treffen-Zeit</string>
+    <string name="setting_meeting_time_set">Festlegen</string>
+    <string name="setting_enable_tts">Text-to-Speech aktivieren</string>
+    <string name="setting_enable_pre_alarm">10 Minuten vorherigen Alarm einstellen</string>
+    <string name="setting_enable_pre_alarm_only">Alarm nur 10 Minuten vor der Treffen-Zeit einstellen</string>
+    <string name="setting_finish">Einstellen</string>
+
+    <string name="tourism_class_result_str">Suchergebnisse für </string>
+    <string name="tourism_class_no_weatherinfo">Keine Wetterinformationen verfügbar</string>
+    <string name="tourism_class_temp">Temperatur:</string>
+    <string name="tourism_class_humidity">Luftfeuchtigkeit:</string>
+    <string name="tourism_class_wind">Windgeschwindigkeit:</string>
+
+    <string name="weatherview_class_departure">Abfahrt</string>
+    <string name="weatherview_class_deatination">Ziel</string>
+
+    <string name="meeting_class_no_set">Nicht festgelegt</string>
+    <string name="meeting_next_day_alart">Der Alarm wird am nächsten Tag um %1$s ausgelöst</string>
+
+    <string name="setting_class_failure_pre_alarm_only">Aufgrund vergangener 10 Minuten konnte der Alarm nicht eingestellt werden</string>
+    <string name="setting_class_failure_pre_alarm">Aufgrund vergangener 10 Minuten wurde nur der Alarm für 10 Minuten vor der Treffen-Zeit eingestellt</string>
+    <string name="setting_class_set_next_alarm">Der Alarm wurde auf den nächsten Tag um %1$s eingestellt</string>
+    <string name="setting_class_set_alarm">Der Alarm wurde auf %1$s eingestellt</string>
+
+    <string name="alarm_pre_title">Treffen-Zeit 10-Minuten vorheriger Alarm</string>
+    <string name="alarm_pre_text">%1$s - Die Treffen-Zeit ist in 10 Minuten</string>
+
+    <string name="alarm_title">Treffen-Zeit Alarm</string>
+    <string name="alarm_text">%1$s - Es ist Zeit für das Treffen</string>
+    <string name="meeting_indoor_switch">Empfohlene Zuschauerplätze in Innenräumen anzeigen</string>
+</resources>

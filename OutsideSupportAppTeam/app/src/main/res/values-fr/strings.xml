@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application d\'assistance pour sortir</string>
+    <string name="tv_winfo_title">Application d\'assistance pour sortir</string>
+
+    <string name="main_title">Application d\'assistance pour sortir</string>
+    <string name="main_tourism_button">Recherche de lieux touristiques</string>
+    <string name="main_weather_button">Vérification de la météo</string>
+    <string name="main_meeting_button">Fonction de rencontre</string>
+    <string name="main_setting_button">Paramètres de l\'application</string>
+
+    <string name="tourism_title">Recherche de lieux touristiques</string>
+    <string name="tourism_search_str">Entrez le lieu touristique que vous souhaitez visiter</string>
+    <string name="tourism_weather_info_title">Informations météorologiques</string>
+    <string name="tourism_map_info_title">Informations sur la carte</string>
+    <string name="tourism_map_str">Affiche la carte du lieu touristique.\nPasser à Google Maps</string>
+
+    <string name="weatherview_title">Informations météorologiques</string>
+    <string name="weatherview_back_button">← Retour</string>
+    <string name="weatherview_setting_button">Changer l\'emplacement d\'affichage</string>
+
+    <string name="meeting_title">Fonction de rencontre</string>
+    <string name="meeting_time_str">Heure de la rencontre</string>
+    <string name="meeting_place_str">Lieu de la rencontre</string>
+    <string name="meeting_map_str">Afficher le lieu de la rencontre sur Google Maps</string>
+    <string name="meeting_enable_tentime_str">L\'alarme de préavis de 10 minutes est activée</string>
+    <string name="meeting_setting_button">Modifier les informations de la rencontre</string>
+
+    <string name="setting_title">Paramètres de l\'application</string>
+    <string name="setting_set_departure_place">Définir le lieu de départ</string>
+    <string name="setting_set_destination_place">Définir la destination</string>
+    <string name="setting_set_language">Paramètres de la langue</string>
+    <string name="setting_set_language_str">Passer aux paramètres de la langue</string>
+    <string name="setting_set_alarm_title">Paramètres de la fonction de rencontre</string>
+    <string name="setting_enable_alarm_str">Activer l\'alarme</string>
+    <string name="setting_meeting_place">Lieu de la rencontre</string>
+    <string name="setting_meeting_time">Heure de la rencontre</string>
+    <string name="setting_meeting_time_set">Définir</string>
+    <string name="setting_enable_tts">Activer la fonction de lecture de texte</string>
+    <string name="setting_enable_pre_alarm">Définir une alarme de 10 minutes avant</string>
+    <string name="setting_enable_pre_alarm_only">Ne pas définir d\'alarme à l\'heure de la rencontre</string>
+    <string name="setting_finish">Définir</string>
+
+    <string name="tourism_class_result_str">Résultats de la recherche pour </string>
+    <string name="tourism_class_no_weatherinfo">Aucune information météorologique disponible</string>
+    <string name="tourism_class_temp">Température :</string>
+    <string name="tourism_class_humidity">Humidité :</string>
+    <string name="tourism_class_wind">Vitesse du vent :</string>
+
+    <string name="weatherview_class_departure">Départ</string>
+    <string name="weatherview_class_deatination">Destination</string>
+
+    <string name="meeting_class_no_set">Non défini</string>
+    <string name="meeting_next_day_alart">L\'alarme sonnera le lendemain à %1$s</string>
+
+    <string name="setting_class_failure_pre_alarm_only">Impossible de définir l\'alarme car 10 minutes se sont écoulées</string>
+    <string name="setting_class_failure_pre_alarm">Impossible de définir l\'alarme car 10 minutes se sont écoulées ; seule l\'alarme de 10 minutes avant la rencontre a été définie</string>
+    <string name="setting_class_set_next_alarm">L\'alarme a été définie pour le lendemain à %1$s</string>
+    <string name="setting_class_set_alarm">L\'alarme a été définie à %1$s</string>
+
+    <string name="alarm_pre_title">Alarme 10 minutes avant l\'heure de la rencontre</string>
+    <string name="alarm_pre_text">%1$s - Il reste 10 minutes avant l\'heure de la rencontre</string>
+
+    <string name="alarm_title">Alarme à l\'heure de la rencontre</string>
+    <string name="alarm_text">%1$s - Il est temps pour la rencontre</string>
+    <string name="meeting_indoor_switch">Spectacle recommandé à l\'intérieur des bâtiments</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外出支持应用</string>
+    <string name="tv_winfo_title">外出支持应用</string>
+
+    <string name="main_title">外出支持应用</string>
+    <string name="main_tourism_button">搜索旅游景点</string>
+    <string name="main_weather_button">查看天气</string>
+    <string name="main_meeting_button">会面功能</string>
+    <string name="main_setting_button">应用设置</string>
+
+    <string name="tourism_title">搜索旅游景点</string>
+    <string name="tourism_search_str">请输入您想游览的旅游景点</string>
+    <string name="tourism_weather_info_title">天气信息</string>
+    <string name="tourism_map_info_title">地图信息</string>
+    <string name="tourism_map_str">显示旅游景点地图。\n转到Google地图</string>
+
+    <string name="weatherview_title">天气信息</string>
+    <string name="weatherview_back_button">←返回</string>
+    <string name="weatherview_setting_button">更改显示位置</string>
+
+    <string name="meeting_title">会面功能</string>
+    <string name="meeting_time_str">会面时间</string>
+    <string name="meeting_place_str">会面地点</string>
+    <string name="meeting_map_str">在Google地图上显示会面地点</string>
+    <string name="meeting_enable_tentime_str">启用提前10分钟通知闹钟</string>
+    <string name="meeting_setting_button">更改会面信息</string>
+
+    <string name="setting_title">应用设置</string>
+    <string name="setting_set_departure_place">设置出发地</string>
+    <string name="setting_set_destination_place">设置目的地</string>
+    <string name="setting_set_language">语言设置</string>
+    <string name="setting_set_language_str">转到语言设置</string>
+    <string name="setting_set_alarm_title">会面功能设置</string>
+    <string name="setting_enable_alarm_str">启用闹钟</string>
+    <string name="setting_meeting_place">会面地点</string>
+    <string name="setting_meeting_time">会面时间</string>
+    <string name="setting_meeting_time_set">设置</string>
+    <string name="setting_enable_tts">启用文本到语音</string>
+    <string name="setting_enable_pre_alarm">设置提前10分钟闹钟</string>
+    <string name="setting_enable_pre_alarm_only">仅在会面时间设置提前10分钟闹钟</string>
+    <string name="setting_finish">设置</string>
+
+    <string name="tourism_class_result_str">的搜索结果</string>
+    <string name="tourism_class_no_weatherinfo">无天气信息</string>
+    <string name="tourism_class_temp">温度：</string>
+    <string name="tourism_class_humidity">湿度：</string>
+    <string name="tourism_class_wind">风速：</string>
+
+    <string name="weatherview_class_departure">出发地</string>
+    <string name="weatherview_class_deatination">到达地</string>
+
+    <string name="meeting_class_no_set">未设置</string>
+    <string name="meeting_next_day_alart">闹钟将在明天 %1$s 鸣响</string>
+
+    <string name="setting_class_failure_pre_alarm_only">由于已过去10分钟，无法设置闹钟</string>
+    <string name="setting_class_failure_pre_alarm">由于已过去10分钟，仅设置了提前10分钟闹钟</string>
+    <string name="setting_class_set_next_alarm">已设置明天 %1$s 的闹钟</string>
+    <string name="setting_class_set_alarm">已设置 %1$s 的闹钟</string>
+
+    <string name="alarm_pre_title">会面时间提前10分钟闹钟</string>
+    <string name="alarm_pre_text"> %1$s 的会面时间还有10分钟</string>
+
+    <string name="alarm_title">会面时间闹钟</string>
+    <string name="alarm_text"> %1$s 的会面时间已到</string>
+    <string name="meeting_indoor_switch">展示推荐的室内观景点</string>
+</resources>

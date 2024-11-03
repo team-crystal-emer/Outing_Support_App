@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- お天気情報 -->
+
+    <!-- 出発地の天気 -->
+    <TextView
+        android:id="@+id/textOuting"
+        android:layout_width="414dp"
+        android:layout_height="61dp"
+        android:background="#90EE90"
+        android:gravity="center"
+        android:text="@string/weatherview_title"
+        android:textAlignment="center"
+        android:textColor="#FDFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/departuretab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <View
+        android:id="@+id/line0"
+        android:layout_width="411dp"
+        android:layout_height="2dp"
+        android:background="#DFDFDF"
+        app:layout_constraintEnd_toEndOf="@+id/departuretab"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textOuting" />
+
+    <View
+        android:id="@+id/departuretab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toBottomOf="@+id/line1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOuting"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/departureweather"
+        android:layout_width="312dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="出発地："
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/departuretab" />
+
+    <TextView
+        android:id="@+id/departuretemp"
+        android:layout_width="180dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="64dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/departuretab" />
+
+    <ImageView
+        android:id="@+id/departureweatherimage"
+        android:layout_width="100dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="64dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/departuretab"
+        app:srcCompat="@drawable/clearsky" />
+
+    <!-- 区切り線 -->
+
+    <!-- 到着地の天気 -->
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="411dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="160dp"
+        android:background="#DFDFDF"
+        app:layout_constraintEnd_toEndOf="@+id/destinationtab"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/departuretab" />
+
+    <View
+        android:id="@+id/destinationtab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:gravity="top|start"
+        app:layout_constraintBottom_toBottomOf="@+id/line2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/destinationweather"
+        android:layout_width="312dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="到着地："
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/destinationtab" />
+
+    <TextView
+        android:id="@+id/destinationtemp"
+        android:layout_width="180dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="64dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/destinationtab" />
+
+    <ImageView
+        android:id="@+id/destinationweatherimage"
+        android:layout_width="100dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="64dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/destinationtab"
+        app:srcCompat="@drawable/clearsky" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="411dp"
+        android:layout_height="2dp"
+        android:background="#DFDFDF"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="@+id/backview"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/destinationtab" />
+
+    <View
+        android:id="@+id/backview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line2" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/weatherview_back_button"
+        android:backgroundTint="#7C4DFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/setting_button"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/weatherview_setting_button"
+        android:backgroundTint="#ACACAC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toEndOf="@+id/back_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

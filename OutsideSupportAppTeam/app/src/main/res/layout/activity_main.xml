@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+『Androidアプリ開発の教科書』
+第11章
+Web API連携サンプル
+
+@author Shinzo SAITO
+
+ファイル名=activity_main.xml
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/glLvCityList"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_begin="366dp" />
+
+	<!-- お出かけ支援アプリ -->
+	<TextView
+		android:id="@+id/textOuting"
+		android:layout_width="414dp"
+		android:layout_height="61dp"
+		android:background="#3F51B5"
+		android:text="@string/main_title"
+		android:textAlignment="center"
+		android:textColor="#FDFBFB"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		app:layout_constraintBottom_toTopOf="@+id/btnTourismSearch"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<!-- 観光地検索 -->
+	<View
+		android:id="@+id/bcgTourismSearch"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="0dp"
+		android:background="#ABE36A"
+		android:gravity="top|start"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnWeather"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textOuting" />
+	<Button
+		android:id="@+id/btnTourismSearch"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="0dp"
+		android:backgroundTint="@android:color/transparent"
+		android:gravity="top|start"
+		android:text="@string/main_tourism_button"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnWeather"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textOuting" />
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="171dp"
+		android:layout_height="138dp"
+		android:scaleType="centerInside"
+		app:layout_constraintBottom_toTopOf="@+id/btnWeather"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/searchimage" />
+
+	<!-- 天気確認 -->
+	<View
+		android:id="@+id/bcgWeather"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:background="#90EE90"
+		android:gravity="top|start"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnMeeting"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnTourismSearch" />
+	<Button
+		android:id="@+id/btnWeather"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:backgroundTint="@android:color/transparent"
+		android:gravity="top|start"
+		android:text="@string/main_weather_button"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnMeeting"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnTourismSearch" />
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="171dp"
+		android:layout_height="138dp"
+		android:scaleType="centerCrop"
+		app:layout_constraintBottom_toTopOf="@+id/btnMeeting"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/weatherimage" />
+
+	<!-- 待ち合わせ機能 -->
+	<View
+		android:id="@+id/bcgMeeting"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="#87CEEB"
+		android:gravity="top|start"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnSettings"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnWeather" />
+	<Button
+		android:id="@+id/btnMeeting"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:backgroundTint="@android:color/transparent"
+		android:gravity="top|start"
+		android:text="@string/main_meeting_button"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/btnSettings"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnWeather" />
+	<ImageView
+		android:id="@+id/imageView4"
+		android:layout_width="171dp"
+		android:layout_height="138dp"
+		android:scaleType="centerCrop"
+		app:layout_constraintBottom_toTopOf="@+id/btnSettings"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/meetingimage" />
+
+	<!-- アプリの設定 -->
+	<View
+		android:id="@+id/bcgSettings"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="#A9A9A9"
+		android:gravity="top|start"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnMeeting"
+		tools:ignore="TextContrastCheck" />
+	<Button
+		android:id="@+id/btnSettings"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:backgroundTint="@android:color/transparent"
+		android:gravity="top|start"
+		android:text="@string/main_setting_button"
+		android:textColor="#EFEFEF"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnMeeting"
+		tools:ignore="TextContrastCheck" />
+	<ImageView
+		android:id="@+id/imageView5"
+		android:layout_width="171dp"
+		android:layout_height="138dp"
+		android:scaleType="centerCrop"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="@+id/bcgSettings"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/settingimage" />
+
+	<View
+		android:id="@+id/line1"
+		android:layout_width="0dp"
+		android:layout_height="2dp"
+		android:background="#DFDFDF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/bcgSettings"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bcgMeeting" />
+
+	<View
+		android:id="@+id/line2"
+		android:layout_width="0dp"
+		android:layout_height="2dp"
+		android:background="#DFDFDF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/bcgMeeting"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bcgWeather" />
+
+	<View
+		android:id="@+id/line3"
+		android:layout_width="0dp"
+		android:layout_height="2dp"
+		android:background="#DFDFDF"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/bcgWeather"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bcgTourismSearch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

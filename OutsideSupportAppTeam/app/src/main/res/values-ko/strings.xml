@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">외출 지원 앱</string>
+    <string name="tv_winfo_title">외출 지원 앱</string>
+
+    <string name="main_title">외출 지원 앱</string>
+    <string name="main_tourism_button">관광지 검색</string>
+    <string name="main_weather_button">날씨 확인</string>
+    <string name="main_meeting_button">만남 기능</string>
+    <string name="main_setting_button">앱 설정</string>
+
+    <string name="tourism_title">관광지 검색</string>
+    <string name="tourism_search_str">방문하고 싶은 관광지를 입력하세요</string>
+    <string name="tourism_weather_info_title">날씨 정보</string>
+    <string name="tourism_map_info_title">지도 정보</string>
+    <string name="tourism_map_str">관광지 지도를 표시합니다.\nGoogle 지도로 이동합니다</string>
+
+    <string name="weatherview_title">날씨 정보</string>
+    <string name="weatherview_back_button">←뒤로</string>
+    <string name="weatherview_setting_button">표시 위치 변경</string>
+
+    <string name="meeting_title">만남 기능</string>
+    <string name="meeting_time_str">만남 시간</string>
+    <string name="meeting_place_str">만남 장소</string>
+    <string name="meeting_map_str">Google 지도에서 만남 장소 표시</string>
+    <string name="meeting_enable_tentime_str">10분 전 알림이 활성화되어 있습니다</string>
+    <string name="meeting_setting_button">만남 정보 변경</string>
+
+    <string name="setting_title">앱 설정</string>
+    <string name="setting_set_departure_place">출발지 설정</string>
+    <string name="setting_set_destination_place">목적지 설정</string>
+    <string name="setting_set_language">언어 설정</string>
+    <string name="setting_set_language_str">설정 앱으로 이동합니다</string>
+    <string name="setting_set_alarm_title">만남 기능 설정</string>
+    <string name="setting_enable_alarm_str">알림 활성화</string>
+    <string name="setting_meeting_place">만남 장소</string>
+    <string name="setting_meeting_time">만남 시간</string>
+    <string name="setting_meeting_time_set">설정</string>
+    <string name="setting_enable_tts">텍스트 읽어주기 기능 활성화</string>
+    <string name="setting_enable_pre_alarm">10분 전 알림 설정</string>
+    <string name="setting_enable_pre_alarm_only">만남 시간에만 알림 울리지 않음</string>
+    <string name="setting_finish">설정</string>
+
+    <string name="tourism_class_result_str">의 검색 결과</string>
+    <string name="tourism_class_no_weatherinfo">날씨 정보가 없습니다</string>
+    <string name="tourism_class_temp">온도:</string>
+    <string name="tourism_class_humidity">습도:</string>
+    <string name="tourism_class_wind">풍속:</string>
+
+    <string name="weatherview_class_departure">출발지</string>
+    <string name="weatherview_class_deatination">도착지</string>
+
+    <string name="meeting_class_no_set">미설정</string>
+    <string name="meeting_next_day_alart">알람은 다음 날 %1$s 에 울립니다</string>
+
+    <string name="setting_class_failure_pre_alarm_only">10분이 지나 알람을 설정할 수 없습니다</string>
+    <string name="setting_class_failure_pre_alarm">10분이 지나 만남 시간의 알람만 설정했습니다</string>
+    <string name="setting_class_set_next_alarm">알람을 다음 날 %1$s 에 설정했습니다</string>
+    <string name="setting_class_set_alarm">알람을 %1$s 에 설정했습니다</string>
+
+    <string name="alarm_pre_title">만남 시간 10분 전 알람</string>
+    <string name="alarm_pre_text"> %1$s 의 만남 시간이 10분 남았습니다</string>
+
+    <string name="alarm_title">만남 시간 알람</string>
+    <string name="alarm_text"> %1$s 의 만남 시간입니다</string>
+    <string name="meeting_indoor_switch">실내의 추천 견학 명소 보기</string>
+</resources>
