@@ -89,7 +89,7 @@ public class weatherAPIHelper {
      * お天気APIにアクセスすするためのAPIキー。
      * ※※※※※この値は各自のものに書き換える!!※※※※※
      */
-    private static final String APP_ID = "553bf5778fc6a258c2d46f7eeff7fcad";
+    private static final String APP_ID = "xxxxx";
     private static final String DEBUG_TAG = "AsyncSample";
 
     /**
